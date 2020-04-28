@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Nunito+Sans:wght@300&family=Oswald&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*Regla en CSS*/
+.header{
+   height: 70px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #f8f9fa;
+   -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.29);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.29);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.29);
+}
+
+.header__logo{
+    /* margin: 0 0 0 0; */
+    margin-left: 10px;
+}
+
+.header__imageLogo{
+    height: 40px;
+    width: 40px;
+}
+
+.header__menu{
+    min-width: 400px;
+}
+
+.header__menuList{
+    list-style: none;
+    display: flex;
+}
+
+.header__optionsList{
+   font-size: 16px;
+   font-family: 'Noto Sans JP', sans-serif;
+   margin-right: 10px;
+}
+
+/*Main Section: Descriptions*/
+.description{
+    width: 100%;
+    margin-top: 2px;
+}
+
+.description__cover{
+    height: 550px;
+    width: 100%;
+}
+
+.description__box{
+    position: relative;
+}
+
+.description__overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.description__title{
+    margin: 15px 0 5px 10px;
+    color: white;
+    font-size: 45px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.description__text{
+    margin: 15px 0 5px 10px;
+    color: white;
+    font-size: 20px;
+    width: 300px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.description__ILearn{
+    margin: 15px 0 5px 10px;
+    background-color: white;
+    border-radius: 5px;
+    width: 150px;
+    height: 100px;
+    font-family: 'Oswald', sans-serif;
+    color: blue;
+}
+
+/*Section: technologies*/
+
+.technologies{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.technologies__title{
+    font-family: 'Oswald', sans-serif;
+    margin: 20px 0 10px 0;
+    text-align: center;
+}
+
+.technologies__box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.technologies__cards{
+    width: 230px;
+    height: 280px;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 10px;
+}
+
+.technologies__cards--header{
+    border-radius: 10px 10px 0 0;
+}
+
+.technologies__cardImage{
+    height: 120px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    -webkit-box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.34);
+-moz-box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.34);
+box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.34);
+}
+
+.technologies__cards--contentTitle{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.technologies__cards--contentDescription{
+    margin: 0 5px;
+}
+
+.technologies__cards--contentURL{
+    margin-left: 160px;
+    color: blue;
+    font-weight: 600;
+    font-family: 'Noto Sans JP', sans-serif;
+}
